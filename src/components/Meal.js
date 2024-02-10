@@ -38,6 +38,7 @@ const Meal = () => {
                 foods.map((item)=>(
                     <div key={item.id} className='border-none hover:scale-105 duration-300'>
                         <img src={item.image}
+                        alt='items'
                         className='w-full h-[200px] object-cover rounded-lg'
                         />
                     <div className='flex justify-between py-2 px-2'>
